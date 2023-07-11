@@ -1,0 +1,142 @@
+{
+	"id": "bb3cf912-cd14-471c-abb7-7e6736fa2536",
+	"name": "Star Ways API",
+	"timestamp": "2023-07-11T15:56:35.939Z",
+	"collection_id": "28382002-7050160e-ba01-4003-adb9-11d1b48c7ee6",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-07-11T15:54:24.606Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "34208442-1422-4848-9ba8-ac4ed10bd8c7",
+			"name": "{{prd}}people/2",
+			"url": "https://swapi.dev/api/people/2",
+			"time": 1099,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				17749,
+				1217,
+				4814,
+				1117,
+				1154,
+				4162,
+				986,
+				32496,
+				998,
+				1099
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "9cdbc5e6-6036-4955-9fc2-75c5dba49643",
+			"name": "Listar personagem 1",
+			"url": "https://swapi.dev/api/people/1/",
+			"time": 1031,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1183,
+				2807,
+				3411,
+				1244,
+				17068,
+				2007,
+				860,
+				969,
+				1252,
+				1031
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		},
+		{
+			"id": "3c5851f8-1a47-455b-be83-0174bf3e702a",
+			"name": "Listar personagem 2",
+			"url": "https://swapi.dev/api/people/2/",
+			"time": 1245,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1243,
+				1192,
+				4181,
+				1107,
+				996,
+				1189,
+				4664,
+				782,
+				1225,
+				1245
+			],
+			"allTests": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 115448,
+	"collection": {
+		"requests": [
+			{
+				"id": "34208442-1422-4848-9ba8-ac4ed10bd8c7",
+				"method": "GET"
+			},
+			{
+				"id": "9cdbc5e6-6036-4955-9fc2-75c5dba49643",
+				"method": "GET"
+			},
+			{
+				"id": "3c5851f8-1a47-455b-be83-0174bf3e702a",
+				"method": "GET"
+			}
+		]
+	}
+}
